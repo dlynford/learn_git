@@ -9,5 +9,11 @@ def main():
     return digits
 
 
+def add_up(a, b):
+    total = a + b
+    return total
+
+
 if __name__ == '__main__':
+    print(add_up(4,5))
     print(main(), 'hello')
